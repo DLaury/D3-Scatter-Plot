@@ -49,6 +49,7 @@
   text-transform: capitalize;
   background: rgba(0, 0, 0, 0.8);
   border-radius: 4px;
+  pointer-events: none !important;
 }
 
 /* Mobile Rules */
