@@ -163,7 +163,6 @@ d3.csv("assets/data/data.csv")
 
     // Create scale functions
     var xLinearScale = xScale(correlationData, chosenXAxis);
-
     var yLinearScale = yScale(correlationData, chosenYAxis);
 
     // Create axis functions
