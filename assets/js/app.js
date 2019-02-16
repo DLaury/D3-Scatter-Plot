@@ -100,7 +100,7 @@ function renderCirclesY(circlesGroup, newYScale, chosenYAxis) {
   circlesGroup.select("text")
     .transition()
     .duration(1000)
-    .attr("y", d => newYScale(d[chosenYAxis]));
+    .attr("y", d => newYScale(d[chosenYAxis]))
   
   return circlesGroup;
 }
